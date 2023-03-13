@@ -8,14 +8,14 @@ import javax.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table( name = "CUSTOMERS_DETAILS" )
+@Table( name = "CUSTOMER_DETAILS" )
 @Data
 public class CustomerEntity {
 	@Id
 	private  Long  phoneNumber;
 	
 	@Column(length=20)
-	private  String  username;
+	private  String  userName;
 	
 	@Column(length=20)
 	private  String  password;

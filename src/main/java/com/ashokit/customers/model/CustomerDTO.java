@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class CustomerDTO {
 	private  Long  phoneNumber;
-	private  String username;
+	private  String userName;
 	private  String email;
 	private  String planId;
 	private  PlanDTO  currentPlan;
